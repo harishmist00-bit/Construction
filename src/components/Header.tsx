@@ -13,9 +13,9 @@ export default function Header() {
 
     const location = useLocation();
 
-    const currentIndex = pages.findIndex(
-        page => page.path === location.pathname
-    );
+    // const currentIndex = pages.findIndex(
+    //     page => page.path === location.pathname
+    // );
 
     return (
         <header className="site-header">
