@@ -33,7 +33,7 @@ function BuildingExperience() {
 
     const [loading, setLoading] = useState(true);
     const [loadingProgress, setLoadingProgress] = useState(0);
-    const [currentFrame, setCurrentFrame] = useState(1);
+    // const [currentFrame, setCurrentFrame] = useState(1);
 
     useEffect(() => {
         const canvas = canvasRef.current;
