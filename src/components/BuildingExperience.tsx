@@ -248,9 +248,9 @@ function BuildingExperience() {
 
                 lastDrawnFrame = frame;
 
-                if (!destroyed) {
-                    setCurrentFrame(frame + 1);
-                }
+                // if (!destroyed) {
+                //     setCurrentFrame(frame + 1);
+                // }
             }
 
             animationFrameId =
